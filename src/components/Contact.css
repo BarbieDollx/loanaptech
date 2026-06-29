@@ -1,0 +1,114 @@
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.contact-container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #e5e4e7;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px; /* Limits the width */
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-header h1 {
+    color: #08060d;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.contact-header p {
+    color: #6b6375;
+    margin: 0;
+}
+
+.contact-info {
+    padding: 16px 20px;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    color: #08060d;
+}
+
+.contact-info strong {
+    color: blue;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 14px 16px;
+    border: 2px solid #e5e4e7;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    color: #08060d;
+    font-family: inherit;
+}
+
+/* .contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #aa3bff;
+} */
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button {
+    padding: 14px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.contact-form button:hover {
+    background: #8a2be2;
+}
+
+/* Responsive for smaller screens
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 24px;
+    }
+    
+    .contact-header h1 {
+        font-size: 26px;
+    }
+    
+    .contact-info {
+        padding: 12px 16px;
+    }
+} */

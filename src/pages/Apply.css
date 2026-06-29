@@ -1,0 +1,76 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.apply-container {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh; 
+    padding: 20px;
+}
+
+.apply-box {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+}
+
+.apply-box h1 {
+    color: #08060d;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 19px;
+}
+
+.apply-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.apply-box input {
+    padding: 14px 16px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.apply-box input::placeholder{
+    color: gray;
+}
+.apply-box strong{
+    color: black;
+    margin-left: 3px;
+    font-weight: 80px;
+    text-align: left;
+}
+.apply-box select{
+    border-radius: 6px;
+    padding: 14px 16px;
+
+}
+.apply-box textarea {
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+.apply-box button{
+    padding: 14px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.apply-box button:hover{
+    background: #8a2be2;
+}
