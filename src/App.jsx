@@ -5,10 +5,14 @@ import Contact  from "./components/Contact";
 import SignUp from "./components/SignUp"
 import LogIn from "./components/LogIn"
 import Apply from "./pages/Apply"
+import Home from "./pages/Home"
 import "./App.css"
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 function App(){
   return( <Router>
-    <h2>Welcome to LoanAptech</h2>
+    <Header />
+    {/* <h2>Welcome to LoanAptech</h2> */}
     <div className="App">
       <Routes>
       <Route path="/about" element={< Aboutpage />} /> 
@@ -16,10 +20,13 @@ function App(){
       <Route path="/signup" element={< SignUp />} />
       <Route path="/login" element={< LogIn />} />
       <Route path="/apply" element={< Apply />} />
+      <Route path="/" element={< Home />} />
+      
       
     </Routes>
 
     </div>
+    <Footer />
   </Router>
 
   );

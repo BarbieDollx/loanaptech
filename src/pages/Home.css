@@ -1,0 +1,94 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    min-height: 80vh; 
+    padding: 20px;
+}
+.home-box{
+     background: white;
+    padding: 40px;
+    width: 100%;
+}
+.home-box p{
+    color: #08060d;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.home-box h2{
+    color: #08060d;
+    font-weight: 600;
+    text-align: center;
+}
+button {
+    background: blue;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    width: 250px;
+    margin-top: 60px;
+}
+.home-box .link a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    gap: 8px;
+    font-size: 20px;
+}
+.card-box{
+    display: flex;
+    gap: 25px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.card{
+   background: whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    width: 290px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   font-size: 16px;
+   align-items: center;
+   height: 350px ;
+   box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.4); 
+}
+.card h1{
+    color: blue;
+    text-align: center;
+    margin-top: -20px;
+    flex-direction: row;
+}
+.card p{
+    margin-top: 20px;
+    text-align: center; 
+}
+.low{
+    margin-bottom: 23px ;
+}
+
+.text{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text p {
+    font-size: 18px;
+    color: #08060d;
+}
+
+
+.text a {
+    text-decoration: none;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.text a:hover {
+    text-decoration: underline;
+    color: #8a2be2;
+}

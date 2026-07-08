@@ -39,26 +39,26 @@
 .feature-box{
     background: lightblue;
     padding: 15px;
-    border-radius: 8px;
-    width: 250px;
+    border-radius: 10px;
+    width: 280px;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
    font-size: 16px;
    vertical-align: top;
-   min-height: 40px ;
+   min-height: 200px;
    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.4);
 }
 .feature-box h1{
     color: blue;
-    margin-bottom: 15px;
-    font-size: 1.8rem;
+    margin-top: -50px;
+    font-size: 1.9rem;
     margin-left: 10px;
 }
 .feature-box p{
     color: black;
     margin-left: 10px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     
 }
