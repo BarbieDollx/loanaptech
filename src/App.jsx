@@ -9,9 +9,16 @@ import Home from "./pages/Home"
 import "./App.css"
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { useState } from "react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
 function App(){
   return( <Router>
-    <Header />
+    
+    <Navbar />
     {/* <h2>Welcome to LoanAptech</h2> */}
     <div className="App">
       <Routes>
@@ -21,6 +28,8 @@ function App(){
       <Route path="/login" element={< LogIn />} />
       <Route path="/apply" element={< Apply />} />
       <Route path="/" element={< Home />} />
+      
+
       
       
     </Routes>
