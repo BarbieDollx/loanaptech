@@ -46,14 +46,14 @@ const SignUp = () => {
         setLoading(true);
 
         try {
-            const response = await fetch("https://loanaptech-it4w.onrender.com", {
+            const response = await fetch("https://loanaptech-it4w.onrender.com/api/auth/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
                 },
                 credentials: "include",
                 body: JSON.stringify({
-                    name: formData.name,
+                    name: formData.ngame,
                     email: formData.email,
                     phone: formData.phone,
                     password: formData.password
