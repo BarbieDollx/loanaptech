@@ -44,7 +44,7 @@ const Signup = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://loanaptech-ijz6.onrender.com/api/auth/register", {
+      const response = await fetch("https://loanaptech-it4w.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
