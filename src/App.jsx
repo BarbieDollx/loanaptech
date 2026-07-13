@@ -1,5 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Aboutpage from "./components/Aboutpage"
 import Contact  from "./components/Contact";
 import SignUp from "./components/SignUp"
@@ -8,11 +12,7 @@ import Apply from "./pages/Apply"
 import Home from "./pages/Home"
 import "./App.css"
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import { useState } from "react";
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+
 
 import Navbar from "./components/Navbar";
 function App(){
