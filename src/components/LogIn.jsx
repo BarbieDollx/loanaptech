@@ -77,4 +77,4 @@ const Login = () => {
     );
 }
 
-export default LogIn;
+export default Login;
