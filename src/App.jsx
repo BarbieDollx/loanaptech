@@ -10,6 +10,7 @@ import SignUp from "./components/SignUp"
 import LogIn from "./components/LogIn"
 import Apply from "./pages/Apply"
 import Home from "./pages/Home"
+import Dashboard from "./components/Dashboard"
 import "./App.css"
 import Footer from "./components/Footer";
 
@@ -28,6 +29,7 @@ function App(){
       <Route path="/login" element={< LogIn />} />
       <Route path="/apply" element={< Apply />} />
       <Route path="/" element={< Home />} />
+      <Route path="/dashboard" element={< Dashboard />} />
       
 
       
