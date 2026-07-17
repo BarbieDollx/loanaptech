@@ -18,7 +18,7 @@ function Navbar() {
   const checkAuth = async () => {
     try {
       const response = await fetch(
-        "https://loanaptech-it4w.onrender.com/api/auth/me",
+        "https://loanaptech-ijz6.onrender.com/api/auth/me",
         { credentials: "include" }
       );
       if (response.ok) {
